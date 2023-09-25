@@ -6,7 +6,7 @@ const Posts = () => {
       const [body,setBody]=useState('')
       const [device,setDevice]=useState('')
       useEffect(()=>{
-        fetch("hhttps://social-media-aqqn.onrender.com/posts",{
+        fetch("https://social-media-aqqn.onrender.com/posts",{
             headers:{
                 "Authorization":localStorage.getItem('token')
             }
